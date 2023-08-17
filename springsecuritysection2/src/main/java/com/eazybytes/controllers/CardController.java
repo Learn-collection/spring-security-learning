@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CardController {
 
-    @GetMapping("/card")
+    @GetMapping("/myCard")
     public String getCardDetail(){
         return "Here is card detail controller";
     }

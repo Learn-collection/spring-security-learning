@@ -8,7 +8,7 @@ import java.awt.*;
 @RestController
 public class LoanController {
 
-    @GetMapping("/loan")
+    @GetMapping("/myLoan")
     public String getLoanDetail(){
         return "Here is loan controller detail.";
     }
